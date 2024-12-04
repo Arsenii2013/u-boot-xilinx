@@ -8,5 +8,5 @@ int do_sev(struct cmd_tbl *cmdtp, int flag, int argc,
 }
 
 U_BOOT_CMD(sev, 1,  0,  do_sev,
-       "just asm sev", "just asm sev"
+       "asm sev", "asm sev"
 );
