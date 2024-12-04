@@ -1,4 +1,4 @@
-DTB=../dts/system.dtb
+DTB=../boot/dtb/system.dtb
 
 if [ ! -f $DTB ]; then
     echo "$DTB file dont exist"

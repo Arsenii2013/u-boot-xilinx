@@ -11,6 +11,7 @@ obj-y += help.o
 obj-y += panic.o
 obj-y += version.o
 obj-y += sev.o
+obj-y += afe.o
 
 # command
 obj-$(CONFIG_CMD_ACPI) += acpi.o
